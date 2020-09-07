@@ -38,3 +38,12 @@
 .Form__input{
   margin: inherit;
 }
+
+@media screen and (max-device-width:700px){
+
+  .Form__content{
+    padding: 1.5rem 1.5rem;
+    margin: 0 auto;
+  }
+
+}

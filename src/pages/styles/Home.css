@@ -49,13 +49,24 @@ h1, h2{
 }
 
 @media screen and (max-device-width:700px){
+
+  .Home__container{
+    display: grid;
+    margin-top: 20%;
+  }
+
+  .Home__section{
+    flex-direction: inherit;
+    justify-content: flex-end;
+  }
+
+  .Home__section h1{
+    font-size: medium;
+    text-align: end;
+    padding: 0 1.5rem;
+  }
+
   .Home__menu{
     display: none;
-  }
-  .sec_left{
-    display: none;
-  }
-  .sec_right{
-    width: '100%' !important
   }
 }

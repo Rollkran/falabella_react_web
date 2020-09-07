@@ -11,13 +11,11 @@ class Home extends Component {
     return (
       <div className="Home__hero">
         <div className="Home__container">
-          {/* <div className="row"> */}
           <div className="Home__section">
-
             <h1>Tu Cuenta Corriente<br />
               <strong>100% on line</strong>
             </h1>
-            <div className="Home__menu sec_left">
+            <div className="Home__menu">
               <div className="Menu__item">
                 <img src={logoCMR} alt="" className="img-fluid Menu__image" />
                 <label>Acumula<br />CMR Puntos</label>
@@ -31,12 +29,10 @@ class Home extends Component {
                 <label>Acumula<br />CMR Puntos</label>
               </div>
             </div>
-
           </div>
-          <div className="Home__section sec_right">
+          <div className="Home__section">
             <Form />
           </div>
-          {/* </div> */}
         </div>
       </div>
     )
